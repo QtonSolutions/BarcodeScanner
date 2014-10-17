@@ -1,7 +1,7 @@
 BarcodeScanner
 ==============
 
-Cross-platform BarcodeScanner for Cordova / PhoneGap.
+Cross-platform BarcodeScanner for Cordova / PhoneGap. (Qton version which only parses CODE_128 on iOS)
 
 Follows the [Cordova Plugin spec](http://cordova.apache.org/docs/en/3.0.0/plugin_ref_spec.md), so that it works with [Plugman](https://github.com/apache/cordova-plugman).
 
@@ -40,15 +40,8 @@ The following barcode types are currently supported:
 
 ### iOS
 
-* QR_CODE
-* DATA_MATRIX
-* UPC_E
-* UPC_A
-* EAN_8
-* EAN_13
+
 * CODE_128
-* CODE_39
-* ITF
 
 ### Windows8
 
